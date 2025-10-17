@@ -1,0 +1,36 @@
+
+-- DAY - 4:
+-- Practice filtering, sorting and pattern matching.
+-- (Where, And, Or, Between, In, Like, Distinct, Limit, Order By)
+
+
+-- 1. Retrieve all students from the 'CSE' department.
+-- 2. Get students older than 20.
+-- 3. Display all teachers teaching 'Math'.
+-- 4. Show all students whose age is not 18.
+-- 5. Retrieve distinct departments from the students table.
+-- 6. Get all students whose age is between 18 and 22.
+-- 7. Display names of teachers whose salary is more than 50,000.
+-- 8. Retrieve all students sorted by name alphabetically.
+-- 9. Show the first 5 students from the table.
+-- 10. Retrieve students whose name starts with 'A'.
+-- 11. Get students from 'CSE' or 'ECE' departments.
+-- 12. Display teachers whose subject is 'Math' and salary > 55000.
+-- 13. Retrieve students whose name ends with 'n'.
+-- 14. Show all teachers with salary not between 40000 and 60000.
+-- 15. Get all students whose department is in ('CSE', 'IT', 'EEE').
+-- 16. Retrieve the top 3 youngest students.
+-- 17. Show students whose name has 'ar' anywhere (use LIKE '%ar%').
+-- 18. Get all teachers ordered by salary descending.
+-- 19. Display students whose email contains 'gmail'.
+-- 20. Retrieve all students not from 'CSE' and age > 20.
+-- 21. Retrieve students whose name starts with 'S' and department = 'EEE'.
+-- 22. Display teachers whose name contains 'an' and salary < average salary.
+-- 23. Get all students sorted by department ascending and age descending.
+-- 24. Retrieve students from 'CSE' whose age is either 18, 20, or 22.
+-- 25. Show students whose email does not contain '@' (invalid emails).
+-- 26. Get distinct ages of all students.
+-- 27. Retrieve only 2 students per department (Hint: use LIMIT with subquery or window function).
+-- 28. Display teachers who don’t teach 'Math' or 'Physics'.
+-- 29. Retrieve all students whose name length > 5 (Hint: use LENGTH(name) > 5).
+-- 30. Get top 5 highest-paid teachers in descending order.
